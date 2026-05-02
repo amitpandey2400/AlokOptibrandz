@@ -53,9 +53,18 @@ No build step is required.
 
 The contact form stores submissions in the browser under the key optibrandz-enquiries. For production, replace this with a real backend endpoint or a form service.
 
-## Deployment
+## Vercel Deployment
 
-Deploy to any static host (GitHub Pages, Netlify, Vercel, or similar). Ensure the assets folder is included in the deployment output.
+1. Import the repository in Vercel.
+2. Set Root Directory to `files-mentioned-by-the-user-optibrandz`.
+3. Framework Preset: `Other`.
+4. Build Command: leave empty.
+5. Output Directory: `.`
+6. Deploy.
+
+## Other Hosts
+
+Deploy to any static host (GitHub Pages, Netlify, or similar). Ensure the assets folder is included in the deployment output.
 
 ## Notes
 
